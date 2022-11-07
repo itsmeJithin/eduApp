@@ -16,4 +16,7 @@ EduApp is a education based Laravel application which contains
 - Twilio is used for the phone number verification 
 - AWS S3 is used to store the uploaded files 
 - Queue system is added to process and upload the large files to S3
+- Admin panel created with responsive UI
+- Vue JS is used to create the Admin panel
+
 
