@@ -1,0 +1,174 @@
+.notify-subject-edit {
+    -webkit-animation: flashing 1s; /* Safari 4+ */
+    -moz-animation: flashing 1s; /* Fx 5+ */
+    -o-animation: flashing 1s; /* Opera 12+ */
+    animation: flashing 1s; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes flashing {
+    0%, 49% {
+        background-color: #f8f9fa;
+    }
+    50%, 100% {
+        background-color: #ffffff;
+    }
+}
+
+.text-transform-none {
+    text-transform: none !important;
+}
+
+.card-heading {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    font-size: 12.5px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-stroke: 0px;
+    filter: alpha(opacity=40);
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.mt--2rem {
+    margin-top: -0.2rem !important;
+}
+
+.mt--1-1rem {
+    margin-top: -1.1rem !important;
+}
+
+.mt--1rem {
+    margin-top: -1rem !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.draggable-card .card-header a:not(.btn) {
+    opacity: 1 !important;
+}
+
+.draggable-card:hover {
+    background-color: #f8f9fa !important;
+    cursor: pointer;
+}
+
+.draggable-card:active {
+    cursor: grabbing !important;
+}
+
+.height-3rem {
+    height: 3rem !important;
+}
+
+
+.vue-fine-uploader-gallery-file-footer {
+    position: relative !important;
+    bottom: -8% !important;
+}
+
+.vue-fine-uploader-gallery-thumbnail {
+    vertical-align: top !important;
+    margin-top: 10px;
+    top: 1% !important;
+    transform: translateY(1%) !important;
+}
+
+.pgn-wrapper {
+    z-index: 2000 !important;
+}
+
+label.required::after {
+    content: "*";
+    color: #ff0000;
+}
+
+.h-80-per {
+    height: 80% !important;
+}
+
+.min-h-80-per {
+    min-height: 80% !important;
+}
+
+.min-h-83-per {
+    min-height: 83% !important;
+}
+
+.add-mcq-option {
+    display: flex;
+    text-align: center !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+}
+
+.custom-tab-content {
+    background: #fff;
+    padding: 15px;
+}
+
+.exam-questions p,
+.exam-questions i,
+.exam-questions b,
+.exam-questions span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px !important;
+}
+
+.colon-after::after {
+    content: ":";
+    float: right;
+}
+
+.datepicker .datepicker-days .table-condensed tbody td,
+.datepicker .datepicker-days .table-condensed thead th,
+.datepicker .datepicker-days .table-condensed tfoot td {
+    text-align: center !important;
+    padding-bottom: 0 !important;
+}
+
+.datepicker .datepicker-days .table-condensed tbody td.day,
+.datepicker .datepicker-days .table-condensed thead th.next,
+.datepicker .datepicker-days .table-condensed thead th.prev,
+.datepicker .datepicker-days .table-condensed thead th.datepicker-switch {
+    cursor: pointer !important;
+}
+
+.datepicker .datepicker-days .table-condensed tbody td.active.day {
+    color: #fff !important;
+    text-align: center;
+    padding-bottom: 0 !important;
+}
+
+input.has-error {
+    border-color: #ff0000 !important;
+}
+
+tr.bg-success-row,
+tr.bg-success-row td {
+    background-color: #d6f7f0 !important;
+    color: #4b4b4b;
+}
+
+.mt-0-8rem {
+    margin-top: .8rem !important;
+}
+.mt-0-2{
+    margin-top: .2rem !important;
+}
+.mt-0-7{
+    margin-top: .7rem !important;
+}
